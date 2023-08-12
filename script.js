@@ -1,5 +1,5 @@
 var clutter = ""
-var timer = 6;
+var timer = 60;
 var score = 0;
 var hitNumber = 0;
 
@@ -25,7 +25,7 @@ function runtimer(){
         }
         else{
             clearInterval(timerFunction)
-            document.querySelector("#p-bottom").innerHTML = `<h2> Game Over ! </h2>`
+            document.querySelector("#p-bottom").innerHTML = `<h2 style="color: crimson;">GAME OVER !</h2>`
              
         }
     },1000)
