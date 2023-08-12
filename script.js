@@ -25,7 +25,7 @@ function runtimer(){
         }
         else{
             clearInterval(timerFunction)
-            document.querySelector("#p-bottom").innerHTML = `<h2 style="color: crimson;">GAME OVER !</h2>`
+            document.querySelector("#p-bottom").innerHTML = `<h2 style="color: crimson;">GAME OVER !<br> <br> <span style = "color: green">Your Score is ${score}</span></h2>`
              
         }
     },1000)
